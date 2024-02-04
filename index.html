@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,400&display=swap" rel="stylesheet">
+    <title>Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(29, 26, 50);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(56, 56, 75);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(24, 23, 26);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #52516d;
+            height: 1.2px;
+            margin: 39px 85px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 100px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+        }
+
+        .leftSection .buttons {
+            padding: 20px 0;
+        }
+
+        .leftSection .btn {
+            padding: 7px;
+            background: rgb(46, 44, 67);
+            color: white;
+            border: 1px solid white;
+            border-radius: 6px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 115%;
+        }
+
+        .pink {
+            color: rgb(135, 182, 204);
+        }
+
+        .text-purple {
+            color: rgb(135, 189, 206);
+        }
+
+        #element {
+            color: rgb(135, 188, 209);
+        }
+
+        .secondSection {
+            max-width: 75vw;
+            margin: auto;
+            height: 85vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.8rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 50vw;
+            height: 3px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 6vw;
+        }
+
+        .image-top {
+            width: 25px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 80px;
+            width: 400px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 90px;
+            color: gray;
+            width: 130px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #131324;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+
+        body {
+            min-width: fit-content;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="" left>Vidhi's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <div>Hi, My Name is <span class="pink">Vidhi.</span></div>
+                <div> I am a Eleectronic & Telecommunication Engineering Student and a Passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png.png">
+            </div>
+
+        </section>
+        <hr style="border: 0; background: #9c97f1; height: 0.4px">
+        <section class="secondSection">
+            <span class="text-purple"> What I have studied so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.png.png" alt="">
+                    <div class="vertical-title">
+                        Web Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Data.png.png" alt="">
+                    <div class="vertical-title">
+                        Data Analysis
+                    </div>
+                    <div class="vertical-desc">
+                        Data analysis is the process of cleaning, changing, and processing raw data and extracting actionable, relevant information that helps businesses make informed decisions.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="C++.png.png" alt="">
+                    <div class="vertical-title">
+                        C++
+                    </div>
+                    <div class="vertical-desc">
+                        C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs. 
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="java.png.png" alt="">
+                    <div class="vertical-title">
+                        Java
+                    </div>
+                    <div class="vertical-desc">
+                        Java is a programming language and computing platform first released by Sun Microsystems in 1995. It has evolved from humble beginnings to power a large share of today's digital world.
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Vidhi Kawase's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Account</li>
+                    <li>Education</li>
+                    <li>Skills</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;Vidhisportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Coder', 'Data Analyst'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
